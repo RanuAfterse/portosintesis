@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini KTP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column-reverse;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .ktp-card {
+      width: 350px;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .ktp-photo {
+      width: 120px;
+      height: 150px;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .ktp-name {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .ktp-hobi {
+      font-style: italic;
+      color: #666;
+      margin: 5px 0;
+    }
+
+    .ktp-deskripsi {
+      font-size: 14px;
+      color: #444;
+      margin-top: 10px;
+    }
+    .tombol {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .tombol button{
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #2ecc71;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3 ease;
+    }
+    .tombol button:hover {
+        background-color: #27ae60;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- KTP 5 (paling bawah) -->
+  <div class="ktp-card">
+    <img src="dikta.jpg" alt="Foto" class="ktp-photo" />
+    <div class="ktp-name">DIKTA THE KING OF DARKNESS</div>
+    <div class="ktp-hobi">Hobi: GAMERS</div>
+    <div class="ktp-deskripsi">MENTAL SEKERAS BAJA, IMAJINASI SELUAS SAMUDERA</div>
+  </div>
+
+  <!-- KTP 4 -->
+  <div class="ktp-card">
+    <img src="dalva.jpg" alt="Foto" class="ktp-photo" />
+    <div class="ktp-name">DALVA OTAKU</div>
+    <div class="ktp-hobi">Hobi:HALU</div>
+    <div class="ktp-deskripsi">PENDIAM BUKAN BERARTI TIDAK TAHU SEGALANYA</div>
+  </div>
+
+  <!-- KTP 3 -->
+  <div class="ktp-card">
+    <img src="habil.jpg" alt="Foto" class="ktp-photo" />
+    <div class="ktp-name">HABIL THE ELIT</div>
+    <div class="ktp-hobi">Hobi: JUDI </div>
+    <div class="ktp-deskripsi">DIA TAK DILAHIRKAN UNTUK MENYERAH,ITU ALASAN IA INGIN 
+        MENCOBA SESUATU SAMPAI DIA BISA
+    </div>
+  </div>
+
+  <!-- KTP 2 -->
+  <div class="ktp-card">
+    <img src="rafka.jpg" alt="Foto" class="ktp-photo" />
+    <div class="ktp-name">RAFKA THE JENIUS</div>
+    <div class="ktp-hobi">Hobi:GAMERS</div>
+    <div class="ktp-deskripsi">DENGAN KEJENIUSAN LUAR BIASA DIA MAMPU MEMBUAT RENCANA YANG SANGAT HEBAT,
+       MAMPU MEMANIPULASI SEISI KELAS DAN MAMPU MENJADI PEMIMPIN DARI SUATU KELOMPOK
+    </div>
+  </div>
+
+  <!-- KTP 1 (paling atas) -->
+  <div class="ktp-card">
+    <img src="ranu.jpg" alt="Foto" class="ktp-photo" />
+    <div class="ktp-name">RANU KING OWNER</div>
+    <div class="ktp-hobi">Hobi:ALL ROLE</div>
+    <div class="ktp-deskripsi">TIDAK PINTAR TIDAK BODOH, 
+        TAPI RASA INGIN TAHU SELALU MENGHANTUI DIRINYA.</div>
+  </div>
+  <table> 
+    <div class="tombol"><a href="index.html">
+        <button>kembali</button></a>
+    </div>
+  </table>
+
+</body>
+</html>
