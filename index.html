@@ -4,61 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biodata</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            padding: 40px;
-        }
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        padding: 40px 10px;
+        box-sizing: border-box;
+    }
 
-        table {
-            border-collapse: collapse;
-            width: 700px;
-            background-color: #fff;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-            border-radius: 10px;
-            overflow: hidden;
-        }
+    .container {
+        width: 100%;
+        max-width: 720px;
+    }
 
-        th {
-            background-color: #e74c3c;
-            color: white;
-            font-size: 24px;
-            padding: 15px;
-            text-transform: uppercase;
-        }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+    }
 
-        td {
-            padding: 12px 20px;
-            font-size: 16px;
-            border-bottom: 1px solid #ccc;
-        }
+    th {
+        background-color: #e74c3c;
+        color: white;
+        font-size: 24px;
+        padding: 15px;
+        text-transform: uppercase;
+    }
 
-        img {
-            width: 250px;
-            height: 250px;
-            object-fit: cover;
-            border-radius: 10px;
-            margin: 10px;
-        }
+    td {
+        padding: 12px 20px;
+        font-size: 16px;
+        border-bottom: 1px solid #ccc;
+        word-break: break-word;
+    }
 
-        ul {
-            margin: 0;
-            padding-left: 20px;
-        }
+    img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 10px auto;
+        display: block;
+    }
 
-        tr:nth-child(even) td {
-            background-color: #f9f9f9;
-        }
+    ul {
+        margin: 0;
+        padding-left: 20px;
+    }
 
-        tr:hover td {
-            background-color: #f1f1f1;
-        }
-    </style>
+    tr:nth-child(even) td {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover td {
+        background-color: #f1f1f1;
+    }
+    .button-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .button-container button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #2ecc22;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3 ease;
+    }
+    .button-container button:hover {
+        background-color: #27ae60;
+    }
+</style>
 </head>
 <body>
+    <div class="container">
     <table>
         <tr>
             <th colspan="3">Biodata</th>
@@ -89,5 +116,9 @@
             </td>
         </tr>
     </table>
+ <div class="button-container"><a href="hal.html">
+    <button>MEMBER</button></a>
+ </div>
+    </div>
 </body>
 </html>
