@@ -1,0 +1,79 @@
+body {
+    font-family: arial,sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+
+}
+.card img{
+    width: 150px;
+    height: 150;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-top: 15px;
+    border: 4px solid #ddd;   
+}
+.card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,1);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+}
+h2 {
+    margin: 10px 0 15 px 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+td {
+    padding: 10px;
+    border-bottom: 1px solid#eee;
+    text-align: left;
+}
+td:first-child {
+    font-weight: bold;
+    width: 40%;
+}
+.sosmed img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    transition: transform 0,2s ease;
+}
+
+.sosmed a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.sosmed img:hover{
+    transform: scale(1.1);
+}
+
+.kembali {
+    text-align: center;
+    margin-top: 25px;
+}
+.kembali a {
+       padding: 10px 20px;
+        font-size: 16px;
+        background-color: #33c770;
+        color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3 ease;
+        font-weight: bold;
+
+}
+.kembali a:hover{
+    text-decoration: underline;
+
+}
